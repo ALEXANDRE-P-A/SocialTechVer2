@@ -112,6 +112,7 @@ body {
     height: 650px;
     margin-top: 0;
     background-color: #2710d5;
+    z-index: 100;
   }
   #nav-sp > a {
     display: block;
@@ -160,7 +161,7 @@ body {
     text-align: center;
     height: 280px;
     width: 100%;
-    z-index: 31;
+    z-index: 11;
     border: 1px solid #ffffff;
   } 
   #main-visual > img {
@@ -169,7 +170,7 @@ body {
     right: 0;
     width: 100%;
     border-radius: 476px 15px 15px 15px;
-    z-index: 30;
+    z-index: 10;
     border: 1px solid #0d0d0d;
   }
   #main-message > h1 {

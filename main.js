@@ -6,9 +6,7 @@ const texts = [
   'Världsfred',
   'Wereldvrede',
   'La paz mundial',
-  'Paix mondiale',
-  'Мир у всьому світі',
-  'Мир во всем мире',
+  'Paix mondiale'
 ];
 const switchText = document.getElementById('switch-text');
 setInterval(() => {
