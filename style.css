@@ -11,6 +11,9 @@ body {
   min-width: 375px;
   max-width: 1080px;
   margin: 0 auto;
+  border-style: solid;
+  border-color: #0d0d0d;
+  border-width: 2px;
 }
 /*=============== PC用画面 ===============*/
 @media screen and (min-width: 768px){
@@ -18,10 +21,11 @@ body {
     position: fixed;
     background-color: #ffffff;
     min-width: 375px;
-    width: 1080px;
-    margin: 0 auto;
+    width: 1060px;
+    margin: 0 10px 0 9px;
     border: 1px solid #0d0d0d;
     border-radius: 15px;
+    z-index: 100;
   }
   #nav-sp, #menu-sp {
     display: none;
@@ -55,7 +59,7 @@ body {
   #main-message {
     position: absolute;
     top: 60px;
-    left: 0;
+    left: 9px;
     background-color: #2710d5;
     color: #ffffff;
     border-radius: 15px 15px 476px 15px;
@@ -80,16 +84,57 @@ body {
   #main-visual > img {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 10px;
     max-width: 620px;
     border-radius: 476px 15px 15px 15px;
     border: 1px solid #0d0d0d;
     z-index: 30;
   }
+  /* ミッション */
+  #mission {
+    width: 100%;
+    margin: 80px auto;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+  }
+  .index-h2 {
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .index-h2::before, .index-h2::after {
+    content: url('images/line.png');
+    margin: 0 20px 0 20px;
+  }
+  #mission-flex {
+    display: flex;
+    width: 100%;
+  }
+  #mission-flex > div {
+    width: 50%;
+    margin: 20px;
+  }
+  #mission-photo, #s2dgs {
+    width: 100%;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+  }
+  h3 {
+    font-size: 27px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #mission-more {
+    margin: 20px 0 -30px -142px;
+  }
 }
 
 /*=============== スマホ用画面 ===============*/
 @media screen and (max-width: 767px){
+  #main-body {
+    border-width: 0;
+    border-style: none;
+  }
   #nav-pc {
     display: none;
   }
@@ -182,4 +227,41 @@ body {
   #main-message > p {
     margin: 0;
   }
+  /* ミッション */
+  #mission {
+    margin: 20px 0 20px 0;
+    padding-top: -20px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding: 0;
+  }
+  .index-h2 {
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .index-h2::before, .index-h2::after {
+    content: url('images/line.png');
+    margin: 0 2px 0 2px;
+  }
+  #mission-flex {
+    display: block;
+    margin-top: 20px;
+  }
+  #mission-photo, #s2dgs {
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+    width: 100%;
+  }
+  h3 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+  }
+  p {
+    font-size: 15px;
+  }
+  #mission-more {
+    text-align: center;
+    margin-bottom: -55px;
+  }
+
 }
