@@ -9,9 +9,11 @@ const texts = [
   'Paix mondiale'
 ];
 const switchText = document.getElementById('switch-text');
-setInterval(() => {
-  let rnd = Math.floor(Math.random() * texts.length);
-  switchText.textContent = texts[rnd];
-}, 1500);
+setTimeout(() => {
+  setInterval(() => {
+    let rnd = Math.floor(Math.random() * texts.length);
+    switchText.textContent = texts[rnd];
+  }, 1500);
+},1500);
 
 
