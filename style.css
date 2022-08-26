@@ -336,11 +336,9 @@ body {
     margin-bottom: 20px;
   }
   .product-photo {
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
     width: 100%;
-    border-left: 1px solid #0d0d0d;
-    border-top: 1px solid #0d0d0d;
-    border-right: 1px solid #0d0d0d;
+    border: 1px solid #0d0d0d;
   }
   .product-explain {
       position: absolute;
@@ -348,11 +346,12 @@ body {
       left: 0;
       background-color: #fafafa;
       padding: 20px;
-      border-radius: 0 0 15px 15px;
+      border-radius: 10% 30% 30% 10%;
+      border-top: 1px solid #0d0d0d;
       border-left: 1px solid #0d0d0d;
       border-bottom: 1px solid #0d0d0d;
       border-right: 1px solid #0d0d0d;
-      box-shadow: 5px 5px 10px rgb(0 0 0 / 5%);
+      box-shadow: 5px 5px 10px rgb(0 0 0);
   }
   .product-explain > span {
     color: #2710d5;
