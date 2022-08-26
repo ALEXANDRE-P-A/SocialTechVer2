@@ -14,6 +14,8 @@ body {
   border-style: solid;
   border-color: #0d0d0d;
   border-width: 2px;
+  opacity: 0;
+  transition: all 6s ease;
 }
 /*=============== PC用画面 ===============*/
 @media screen and (min-width: 768px){
