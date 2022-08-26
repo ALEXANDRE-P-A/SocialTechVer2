@@ -127,6 +127,64 @@ body {
   #mission-more {
     margin: 20px 0 -30px -142px;
   }
+  /* プロダクト */
+  #product {
+    margin: 20px 0 20px 0;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+  }
+  #product > div {
+    margin: 20px 0 0 0;
+    display: flex;
+  }
+  #product-left {
+    width: 50%;
+    margin-right: 20px;
+  }
+  #product-right {
+    width: 50%;
+    margin: 80px 0 0 20px;
+  }
+  #product-left > div {
+    position: relative;
+    height: 480px;
+    margin: 0 0 50px 20px;
+  }
+  #product-right > div {
+    position: relative;
+    height: 480px;
+    margin: 0 20px 50px 0;
+  }
+  #product-right > div > div {
+    margin-bottom: 20px;
+  }
+  .product-photo {
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+    width: 100%;
+  }
+  .product-explain {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    margin: 0 40px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 5%);
+  }
+  .product-explain > span {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+  }
+  .product-explain > h3 {
+    margin: 5px 0;
+  }
+  #product-more {
+    margin: 0 auto -10px auto;
+  }
 }
 
 /*=============== スマホ用画面 ===============*/
@@ -260,5 +318,46 @@ body {
   #mission-more {
     text-align: center;
     margin-bottom: -55px;
+  }
+  /* プロダクト */
+  #product {
+    margin: 75px 0 20px 0;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+  }
+  #product > div {
+    margin: 0 10px 0 10px;
+  }
+  #product-left > div, #product-right > div {
+    position: relative;
+    height: 516px;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  .product-photo {
+    border-radius: 15px;
+    width: 100%;
+  }
+  .product-explain {
+      position: absolute;
+      top: 280px;
+      left: 0;
+      background-color: #fafafa;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px rgb(0 0 0 / 5%);
+  }
+  .product-explain > span {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+  }
+  .product-explain > h3 {
+    margin: 5px 0;
+  }
+  #product-more {
+    text-align: center;
   }
 }
