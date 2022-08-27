@@ -1,10 +1,12 @@
 /*=============== PC,スマホ共通 ===============*/
 body {
-  background-color: rgb(39,16,213);
+  background-color: rgb(255,255,255);
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Potta One', cursive;
   padding: 0;
   margin: 0;
+  /* opacity: 0; */
+  transition: all 1s linear;
 }
 #main-body {
   background-color: #fafafa;
@@ -14,8 +16,6 @@ body {
   border-style: solid;
   border-color: #0d0d0d;
   border-width: 2px;
-  opacity: 0;
-  transition: all 6s ease;
 }
 /*=============== PC用画面 ===============*/
 @media screen and (min-width: 768px){

@@ -1,3 +1,3 @@
 $(function(){
-  $('#main-body').css('opacity', 1);
+  $('body').css('background-color', 'rgb(39,16,213)');
 });
