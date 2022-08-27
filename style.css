@@ -100,7 +100,7 @@ body {
     border-radius: 15px;
   }
   .index-h2 {
-    margin: 40px 0 0 0;
+    margin: 0 0 0 0;
     text-align: center;
   }
   .index-h2::before, .index-h2::after {
@@ -131,7 +131,7 @@ body {
   }
   /* プロダクト */
   #product {
-    margin: 20px 0 20px 0;
+    margin: 80px 0 20px 0;
     background-color: rgba(0,0,0,0.05);
     border-radius: 15px;
   }
@@ -186,6 +186,54 @@ body {
   }
   #product-more {
     margin: 0 auto -10px auto;
+  }
+  /* ABOUT US */
+  #aboutus {
+      padding-top: 60px;
+  }
+  #aboutus > div {
+    margin: 0;
+    padding: 0 20px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+  }
+  #aboutus > div > div {
+    display: flex;
+  }
+  .culture-table {
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  .culture-num {
+    font-size: 80px;
+    color: #2710d5;
+    margin: 0 20px 0 0;
+  }
+  .culture-en {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+  }
+  .culture-jp {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .culture-description {
+    margin: 0;
+  }
+  .culture-img {
+    width: 100%;
+    align-self: flex-start;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+  }
+  .culture-img2 {
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
   }
 }
 
@@ -293,7 +341,7 @@ body {
     border-radius: 15px;
   }
   .index-h2 {
-    margin: 40px 0 0 0;
+    margin: 0;
     text-align: center;
   }
   .index-h2::before, .index-h2::after {
@@ -364,5 +412,47 @@ body {
   }
   #product-more {
     text-align: center;
+  }
+  /* ABOUT US */
+  #aboutus {
+    padding-top: 0px;
+  }
+  #aboutus > div {
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding: 0 10px;
+  }
+  #aboutus > div > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .culture-table {
+    width: 100%;
+    order: 2;
+  }
+  .culture-img {
+    width: 100%;
+    order: 1;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+  }
+  .culture-img2 {
+    width: 100%;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .culture-num {
+    font-size: 80px;
+    color: #2710d5;
+  }
+  .culture-en {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+  }
+  .culture-description {
+    margin: 0;
   }
 }
