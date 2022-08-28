@@ -190,6 +190,7 @@ body {
   /* ABOUT US */
   #aboutus {
       padding-top: 60px;
+      margin-bottom: 20px;
   }
   #aboutus > div {
     margin: 0;
