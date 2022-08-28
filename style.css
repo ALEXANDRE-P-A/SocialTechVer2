@@ -235,6 +235,64 @@ body {
     border: 1px solid #0d0d0d;
     border-radius: 15px;
   }
+  /* ビジョン */
+  #vision {
+    padding-top: 60px;
+  }
+  #vision > div {
+    margin: 0;
+    padding: 0 20px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+  }
+  #vision > div > div {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #0d0d0d;
+    border-radius: 30%;
+    padding: 40px 0;
+    margin: 0 10px;
+  }
+  #content-line {
+    display: flex;
+    justify-content:center;
+  }
+  .vision-box {
+    width: 320px;
+    height: 320px;
+    /* background-color: #fafafa; */
+    position: relative;
+  }
+  .vision-box > img {
+    width: 94%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+  }
+  .vision-box > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 31;
+    margin-right: 30px;
+  }
+  .vision-box > span > h4 {
+    color: #2710d5;
+    font-size: 19px;
+    margin: 80px 0 0 0;
+  }
+  .vision-box > span > h4::first-letter {
+    font-size: 40px;
+  }
+  .vision-box > span > h5 {
+    font-size: 20px;
+    margin: 0 0 0 0;
+  }
+  .vision-box > span > p {
+    margin: 10px 0 0 0;
+  }
 }
 
 /*=============== スマホ用画面 ===============*/
@@ -416,6 +474,7 @@ body {
   /* ABOUT US */
   #aboutus {
     padding-top: 0px;
+    margin: 0 0 20px 0;
   }
   #aboutus > div {
     background-color: rgba(0,0,0,0.05);
@@ -454,5 +513,62 @@ body {
   }
   .culture-description {
     margin: 0;
+  }
+  /* ビジョン */
+  #vision {
+    padding-top: 0px;
+    margin: 0 0 20px 0;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding: 0 10px;
+  }
+  #vision > div {
+    display: block;
+  }
+  #vision > div > div {
+    background-color: #ffffff;
+    border: 1px solid #0d0d0d;
+    border-radius: 15px;
+    padding: 0 20px 0 5px;
+  }
+  .content-line {
+    margin: 0;
+    padding: 0;
+  }
+  .vision-box {
+    position: relative;
+    width: 320px;
+    height: 320px;
+  }
+  .vision-box > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+  }
+  .vision-box > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 31;
+    margin-right: 20px;
+    padding-left: 10px;
+  }
+  .vision-box > span > h4 {
+    margin: 80px 0 0 0;
+    color: #2710d5;
+    font-size: 19px;
+  }
+  .vision-box > span > h4::first-letter {
+    font-size: 40px;
+  }
+  .vision-box > span > h5 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .vision-box > span > p {
+    margin: 10px 0 0 0;
   }
 }
