@@ -516,7 +516,6 @@ body {
   }
   /* ビジョン */
   #vision {
-    padding-top: 0px;
     margin: 0 0 20px 0;
     background-color: rgba(0,0,0,0.05);
     border-radius: 15px;
@@ -529,7 +528,7 @@ body {
     background-color: #ffffff;
     border: 1px solid #0d0d0d;
     border-radius: 15px;
-    padding: 0 20px 0 5px;
+    padding: 0 20px 30px 5px;
   }
   .content-line {
     margin: 0;
