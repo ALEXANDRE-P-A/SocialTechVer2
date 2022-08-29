@@ -56,7 +56,10 @@ body {
   /* メインビジュアル */
   #main-visual {
     position: relative;
-    height: 500px;
+    height: 510px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding-bottom: 10px;
   }
   #main-message {
     position: absolute;
@@ -64,8 +67,9 @@ body {
     left: 9px;
     background-color: #2710d5;
     color: #ffffff;
-    border-radius: 15px 15px 476px 15px;
-    max-width: 620px;
+    /* border-radius: 15px 15px 476px 15px; */
+    border-radius: 45%;
+    max-width: 570px;
     height: 400px;
     width: 100%;
     border: 1px solid #ffffff;
@@ -75,7 +79,7 @@ body {
     color: #ffffff;
     text-align: center;
     font-size: 60px;
-    margin: 95px 30px 0 0;
+    margin: 125px 30px 0 0;
   }
   #main-message > p {
     color: #ffffff;
@@ -85,10 +89,11 @@ body {
   }
   #main-visual > img {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 10px;
-    max-width: 620px;
-    border-radius: 476px 15px 15px 15px;
+    max-width: 550px;
+    /* border-radius: 476px 15px 15px 15px; */
+    border-radius: 45%;
     border: 1px solid #0d0d0d;
     z-index: 30;
   }
@@ -306,7 +311,7 @@ body {
     display: none;
   }
   header {
-    /* border: 2px solid #0d0d0d;  */
+    border-bottom: 1px solid #0d0d0d; 
     /* border-radius: 15px; */
     z-index: 98;
   }
@@ -362,15 +367,20 @@ body {
   /* メインビジュアル */
   #main-visual {
     position: relative;
-    height: 530px;
+    height: 520px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   #main-message {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
     background-color: #2710d5;
     color: white;
-    border-radius: 15px 15px 476px 15px;
+    /* border-radius: 15px 15px 476px 15px; */
+    border-radius: 45%;
     text-align: center;
     height: 280px;
     width: 100%;
@@ -379,16 +389,17 @@ body {
   } 
   #main-visual > img {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 0;
     width: 100%;
-    border-radius: 476px 15px 15px 15px;
+    /* border-radius: 476px 15px 15px 15px; */
+    border-radius: 45%;
     z-index: 10;
     border: 1px solid #0d0d0d;
   }
   #main-message > h1 {
     font-size: 30px;
-    margin: 80px 0 0 0;
+    margin: 90px 0 0 0;
   }
   #main-message > p {
     margin: 0;
