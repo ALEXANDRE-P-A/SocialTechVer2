@@ -241,13 +241,14 @@ body {
     border: 1px solid #0d0d0d;
     border-radius: 15px;
   }
-  /* ビジョン */
+  /* VISION */
   #vision {
     padding-top: 60px;
+    margin-bottom: 20px;
   }
   #vision > div {
     margin: 0;
-    padding: 0 20px;
+    padding: 0 20px 5px 20px;
     background-color: rgba(0,0,0,0.05);
     border-radius: 15px;
   }
@@ -298,6 +299,62 @@ body {
   }
   .vision-box > span > p {
     margin: 10px 0 0 0;
+  }
+  /* COMPANY */
+  #company {
+    padding-top: 60px;
+    margin-bottom: 20px;
+  }
+  #company > div {
+    padding: 0 20px 5px 20px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+  }
+  #company-table {
+    width: 100%;
+    font-size: 18px;
+  }
+  .tableheader-first {
+    border-color: #0d0d0d;
+    border-style: solid;
+    border-width: 1px 0;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  .cell-first {
+    border-color: #0d0d0d;
+    border-style: solid;
+    border-width: 1px 0;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  .tableheader {
+    border-color: #0d0d0d;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  .cell {
+    border-color: #0d0d0d;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  #map-frame {
+    margin-top: 10px;
+    width: 100%;
+    height: 360px;
+    border-radius: 15px;
+    border: 1px solid #0d0d0d;
+  }
+  iframe {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 360px;
+    border-radius: 15px;
   }
 }
 
@@ -386,12 +443,13 @@ body {
     width: 100%;
     z-index: 11;
     border: 1px solid #ffffff;
+    margin: 0 5px;
   } 
   #main-visual > img {
     position: absolute;
     bottom: 10px;
     right: 0;
-    width: 100%;
+    width: 95%;
     /* border-radius: 476px 15px 15px 15px; */
     border-radius: 45%;
     z-index: 10;
@@ -526,7 +584,7 @@ body {
   .culture-description {
     margin: 0;
   }
-  /* ビジョン */
+  /* VISION */
   #vision {
     margin: 0 0 20px 0;
     background-color: rgba(0,0,0,0.05);
@@ -581,5 +639,63 @@ body {
   }
   .vision-box > span > p {
     margin: 10px 0 0 0;
+  }
+  /* COMPANY */
+  #company {
+    margin: 0 0 20px 0;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding: 0 10px;
+  }
+  #company > div {
+    display: block;
+    padding-bottom: 5px;
+  }
+  #company-table {
+    width: 100%;
+  }
+  .tableheader-first {
+    width: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #0d0d0d;
+    border-width: 1px 0;
+  }
+  .cell-first{
+    padding: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #0d0d0d;
+    border-width: 1px 0;
+  }
+  .tableheader {
+    width: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #0d0d0d;
+    border-width: 0 0 1px 0;
+  }
+  .cell{
+    padding: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #0d0d0d;
+    border-width: 0 0 1px 0;
+  }
+  #map-frame {
+    margin-top: 10px;
+    width: 100%;
+    height: 240px;
+    border-radius: 15px;
+    border: 1px solid #0d0d0d;
+  }
+  iframe {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 240px;
+    border-radius: 15px;
   }
 }
