@@ -374,6 +374,7 @@ body {
       padding: 0 20px 5px 20px;
       background-color: rgba(0,0,0,0.05);
       border-radius: 15px;
+      margin-bottom: -55px;
   }
   #contact > div > h3 {
     text-align: center;
@@ -417,6 +418,24 @@ body {
   }
   summary {
     text-align: center;
+  }
+  .personal-info-box {
+    border: 1px solid #ffffff;
+    background-color: #0d0d0d;
+    color: #ffffff;
+  }
+  details {
+    width: 700px;
+  }
+  details > div {
+    padding: 20px;
+  }
+  #submit-button {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .button-submit {
+    border: 1px solid #0d0d0d;
   }
 }
 
@@ -763,5 +782,84 @@ body {
     width: 100%;
     height: 240px;
     border-radius: 15px;
+  }
+  /* お問い合わせフォーム */
+  #contact {
+    margin: 0 0 20px 0;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 15px;
+    padding: 0 10px;
+  }
+  #contact > div {
+    display: block;
+    padding-bottom: 5px;
+  }
+  form {
+    display: block;
+  }
+  #contact > div > form > div {
+    margin-bottom: 20px;
+  }
+  .contact-heading {
+    margin-bottom: 20px;
+  }
+  .contact-label {
+    font-weight: bold;
+  }
+  .contact-span {
+    color: #ce2222;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+  }
+  .contact-textbox {
+    height: 54px;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 0 0 1px 0;
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+  }
+  .contact-textarea {
+    height: 150px;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 0 0 1px 0;
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+  }
+  #radio-button-area {
+    font-size: 20px;
+  }
+  .radiobutton {
+    margin-bottom: 20px;
+  }
+  .radiobutton + label::after {
+    content: "\A";
+    white-space: pre;
+  }
+  #submit-button {
+    text-align: center;
+  }
+  .button-submit {
+    border: 1px solid #0d0d0d;
+  }
+  .personal-info-box {
+    text-align: center;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 10px;
+  }
+  details > div {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  details > div > span > h5 {
+    font-size: 19px;
+    margin: 10px 0;
+  }
+  details > div > span > h5::first-letter {
+    font-size: 30px;
   }
 }

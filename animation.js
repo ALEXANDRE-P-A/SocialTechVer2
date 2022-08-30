@@ -14,4 +14,14 @@ $(function(){
       // width: 249,
     },100);
   });
+  $('.button-submit').on('mouseover',function(){
+    $(this).animate({
+      width: 300,
+    });
+  });
+  $('.button-submit').on('mouseout',function(){
+    $(this).animate({
+      width: 240,
+    });
+  });
 });
