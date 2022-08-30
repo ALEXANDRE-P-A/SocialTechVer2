@@ -24,7 +24,7 @@ body {
     background-color: #ffffff;
     min-width: 375px;
     width: 1060px;
-    margin: 0 10px 0 9px;
+    margin: 0 9.5px 0 9.5px;
     border: 1px solid #0d0d0d;
     border-radius: 15px;
     z-index: 100;
@@ -53,49 +53,58 @@ body {
   #nav-pc a:visited {
     color: black;
   }
+  #blank_space {
+    background-color: #ffffff;
+    height: 55px;
+    width: 100%;
+  }
   /* メインビジュアル */
   #main-visual {
     position: relative;
-    height: 510px;
+    height: 400px;
     background-color: rgba(0,0,0,0.05);
     border-radius: 15px;
-    padding-bottom: 10px;
+    /* overflow-y: hidden; */
+
   }
   #main-message {
     position: absolute;
-    top: 60px;
-    left: 9px;
+    top: 0;
+    left: 0;
     background-color: #2710d5;
     color: #ffffff;
-    /* border-radius: 15px 15px 476px 15px; */
-    border-radius: 45%;
-    max-width: 570px;
+    border-radius: 15px 15px 476px 15px;
+    max-width: 580px;
     height: 400px;
     width: 100%;
     border: 1px solid #ffffff;
     z-index: 31;
+    margin-left: 5px;
+    margin-top: 5px;
   }
   #main-message > h1 {
     color: #ffffff;
     text-align: center;
     font-size: 60px;
-    margin: 125px 30px 0 0;
+    margin: 110px 50px 0 0;
   }
   #main-message > p {
     color: #ffffff;
     font-size: 30px;
-    margin: 0 30px 0 0;
+    margin: 0 50px 0 0;
     text-align: center;
   }
   #main-visual > img {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
-    max-width: 550px;
-    /* border-radius: 476px 15px 15px 15px; */
-    border-radius: 45%;
+    bottom: 0;
+    right: 0;
+    max-width: 620px;
+    border-radius: 476px 15px 15px 15px;
     border: 1px solid #0d0d0d;
     z-index: 30;
+    margin-bottom: -40px;
+    margin-right: 5px;
+
   }
   /* ミッション */
   #mission {
@@ -356,6 +365,59 @@ body {
     height: 360px;
     border-radius: 15px;
   }
+  /* お問い合わせフォーム */
+  #contact {
+    padding-top: 60px;
+    margin-bottom: 20px;
+  }
+  #contact > div {
+      padding: 0 20px 5px 20px;
+      background-color: rgba(0,0,0,0.05);
+      border-radius: 15px;
+  }
+  #contact > div > h3 {
+    text-align: center;
+  }
+  #contact > div > form > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .contact-heading {
+    width: 240px;
+    align-self: center;
+  }
+  .contact-label {
+    font-weight: bold;
+  }
+  .contact-span {
+    color: #ce2222;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+  }
+  .contact-textbox {
+    border-color: #707070;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+    text-align: center;
+  }
+  .contact-textarea {
+    border-color: #707070;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+  }
+  summary {
+    text-align: center;
+  }
 }
 
 /*=============== スマホ用画面 ===============*/
@@ -421,26 +483,29 @@ body {
     background-repeat: no-repeat;
     background-position: right;
   }
+  #blank_space {
+    display: none;
+  }
   /* メインビジュアル */
   #main-visual {
     position: relative;
-    height: 520px;
+    height: 470px;
     background-color: rgba(0,0,0,0.05);
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
   }
   #main-message {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 0;
     background-color: #2710d5;
     color: white;
-    /* border-radius: 15px 15px 476px 15px; */
-    border-radius: 45%;
+    border-radius: 15px 15px 476px 15px;
+    /* border-radius: 45%; */
     text-align: center;
     height: 280px;
-    width: 100%;
+    width: 95%;
     z-index: 11;
     border: 1px solid #ffffff;
     margin: 0 5px;
@@ -450,10 +515,11 @@ body {
     bottom: 10px;
     right: 0;
     width: 95%;
-    /* border-radius: 476px 15px 15px 15px; */
-    border-radius: 45%;
+    border-radius: 476px 15px 15px 15px;
+    /* border-radius: 45%; */
     z-index: 10;
     border: 1px solid #0d0d0d;
+    margin: 0 5px;
   }
   #main-message > h1 {
     font-size: 30px;
