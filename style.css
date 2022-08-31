@@ -434,8 +434,36 @@ body {
     margin: 0 auto;
     margin-bottom: 0;
   }
-  .button-submit {
-    border: 1px solid #0d0d0d;
+  /* フッター */
+  footer {
+    background-color: #0d0d0d;
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 80px 30px 80px;
+  }
+  #footer-logo {
+    margin-bottom: 30px;
+  }
+  #footer-link {
+    margin-bottom: 50px;
+  }
+  #footer-link > a {
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #footer-link > a:hover {
+    text-decoration: underline;
+  }
+  #sns-footer {
+    text-align: left;
+  }
+  #sns-footer > a {
+    margin-right: 30px;
+  }
+  #copyright {
+    float: right;
   }
 }
 
@@ -817,7 +845,7 @@ body {
     border-color: #707070;
     border-width: 0 0 1px 0;
     width: 100%;
-    min-width: 300px;
+    /* min-width: 300px; */
     text-align: center;
   }
   .contact-textarea {
@@ -826,7 +854,7 @@ body {
     border-color: #707070;
     border-width: 0 0 1px 0;
     width: 100%;
-    min-width: 300px;
+    /* min-width: 300px; */
     text-align: center;
   }
   #radio-button-area {
@@ -841,9 +869,6 @@ body {
   }
   #submit-button {
     text-align: center;
-  }
-  .button-submit {
-    border: 1px solid #0d0d0d;
   }
   .personal-info-box {
     text-align: center;
