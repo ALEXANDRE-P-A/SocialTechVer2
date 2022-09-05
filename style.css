@@ -371,10 +371,10 @@ body {
     margin-bottom: 20px;
   }
   #contact > div {
-      padding: 0 20px 5px 20px;
+      padding: 0 20px 0 20px;
       background-color: rgba(0,0,0,0.05);
       border-radius: 15px;
-      margin-bottom: -55px;
+      margin-bottom: 0px;
   }
   #contact > div > h3 {
     text-align: center;
@@ -420,9 +420,9 @@ body {
     text-align: center;
   }
   .personal-info-box {
-    border: 1px solid #ffffff;
-    background-color: #0d0d0d;
-    color: #ffffff;
+    border: 1px solid #0d0d0d;
+    /* background-color: #0d0d0d; */
+    color: #0d0d0d;
   }
   details {
     width: 700px;
@@ -430,9 +430,11 @@ body {
   details > div {
     padding: 20px;
   }
+  details > div > span > h5::first-letter {
+    font-size: 30px;
+  }
   #submit-button {
-    margin: 0 auto;
-    margin-bottom: 0;
+    padding-bottom: 5px;
   }
   /* フッター */
   footer {
@@ -440,6 +442,7 @@ body {
     text-align: center;
     color: #ffffff;
     padding: 80px 80px 30px 80px;
+    margin-top: 60px;
   }
   #footer-logo {
     margin-bottom: 30px;
@@ -826,7 +829,7 @@ body {
     display: block;
   }
   #contact > div > form > div {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .contact-heading {
     margin-bottom: 20px;
@@ -871,9 +874,9 @@ body {
     text-align: center;
   }
   .personal-info-box {
+    border: 1px solid #0d0d0d;
     text-align: center;
-    background-color: #0d0d0d;
-    color: #ffffff;
+    color: #0d0d0d;
     padding: 10px;
   }
   details > div {
@@ -886,5 +889,48 @@ body {
   }
   details > div > span > h5::first-letter {
     font-size: 30px;
+  }
+  #submit-button {
+    margin: 15px 0;
+  }
+  /* フッター */
+  footer {
+    background-color: #0d0d0d;
+    padding: 30px 20px 50px 20px;
+    display: block;
+  }
+  #footer-logo {
+    margin-bottom: 30px;
+  }
+  #footer-link {
+    margin-bottom: 50px;
+  }
+  #footer-link > a {
+    display: block;
+    text-decoration: none;
+    margin: 0 20px 30px 0;
+    color: #ffffff;
+  }
+  #footer-link > a:link {
+    color: #ffffff;
+  }
+  #footer-link > a:hover {
+    text-decoration: underline;
+  }
+  #footer-link > a:active {
+    color: #ffffff;
+  }
+  #sns-footer {
+    display: block;
+    width: 100%;
+  }
+  #sns-footer > a {
+    margin-right: 30px;
+  }
+  #copyright {
+    font-size: 12px;
+    display: block;
+    margin-top: 30px;
+    color: #ffffff;
   }
 }

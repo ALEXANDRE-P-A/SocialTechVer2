@@ -6,7 +6,7 @@ $(function(){
     let error = result.error; //エラー判定とメッセージを取得(1)
     let message = result.message; //エラー判定とメッセージを取得(2)
     if(error == false){ //エラーがなければフォームを送信する
-    /*------------------------------- Ajaxでフォーム送信する -------------------------------*/
+      /*------------------------------- Ajaxでフォーム送信する -------------------------------*/
       $.ajax({
         url: 'https://api.staticforms.xyz/submit',
         type: 'POST',
@@ -18,7 +18,7 @@ $(function(){
         error: function(xhr, resp, text){
           alert('お問い合わせを送信できませんでした。');
         }
-      })
+      });
     } else {
       alert(message); //エラーメッセージを表示する
     }
@@ -107,7 +107,7 @@ $(function(){
     /*------------- オブジェクトでエラー判定とメッセージを返す -------------*/
     result = {
       error : error,
-      message : message,
+      message : message
     };
     /*------------- 戻り値としてエラーがあるかどうかを返す -------------*/
     return result;
