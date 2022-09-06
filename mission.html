@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>Social Tech Mission</title>
+    <title>Social Tech -Mission ミッション-</title>
     <meta charset="UTF-8">
     <meta name="description" content="世界をリードするITカンパニーを目指します。">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
   </head>
-  <style>
-    body {
-      background-color: #2710d5;
-    }
-    p {
-      color: #ffffff; 
-      text-align: center; 
-      font-size: 80px;
-    }
-    a {
-      color: #fafafa;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
   <body>
-    <p>只今製作中でございます。</p>
-    <p><a href="index.html">>TOPへ戻る</a></p>
+    <div id="main-body">
+       <!-- ヘッダー -->
+       <header>
+        <!-- ロゴ -->
+        <a href="index.html"><img src="images/logo.png" alt="トップページに戻る"></a>
+        <!-- PC用ナビゲーション -->
+        <nav id="nav-pc">
+          <a href="mission.html">MISSION</a>
+          <a href="product.html">PRODUCT</a>
+          <a href="index.html#aboutus">ABOUT US</a>
+          <a href="index.html#vision">VISION</a>
+          <a href="index.html#company">COMPANY</a>
+          <a href="index.html#contact">CONTACT</a>
+        </nav>
+        <!-- スマホ用ナビゲーション -->
+        <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+        <nav id="nav-sp">
+          <a href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img id="logo-sp" src="images/logo-sp.png" alt="トップページへ戻る"></a>
+          <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+          <a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a>
+          <a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+          <a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT US</a>
+          <a class="menu" href="index.html#vision" onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a>
+          <a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a>
+          <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <div id="blank_space"></div>
+          <section id="mission-main">
+
+          </section>
+        </article>
+        <!-- フッター -->
+        <footer>
+          <div id="footer-logo">
+            <a href="index.html"><img src="images/logo-sp.png" alt="SocialTech"></a>
+          </div>
+          <div id="footer-link">
+            <a href="mission.html">MISSION</a>
+            <a href="product.html">PRODUCT</a>
+            <a href="index.html#aboutus">ABOUT US</a>
+            <a href="index.html#vision">VISION</a>
+            <a href="index.html#company">COMPANY</a>
+            <a href="index.html#contact">CONTACT</a>
+          </div>
+          <div id="sns-footer">
+            <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Facebookへのリンク"></a>
+            <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterへのリンク"></a>
+            <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="You Tubeへのリンク"></a>
+            <span id="copyright">&copy;2021 SocialTech, Inc. All Rights Reserved.</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="main.js"></script>
+    <script src="animation.js"></script>
   </body>
 </html>

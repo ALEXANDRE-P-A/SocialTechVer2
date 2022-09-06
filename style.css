@@ -468,6 +468,22 @@ body {
   #copyright {
     float: right;
   }
+  /* --------------------- ミッションページ --------------------- */
+  #mission-main {
+    height: 496px;
+    width: 100%;
+    background-image: url('images/mission/mission-main.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  /* --------------------- プロダクトページページ --------------------- */
+  #product-main {
+    height: 496px;
+    width: 100%;
+    background-image: url('images/product/product-main.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
 }
 
 /*=============== スマホ用画面 ===============*/
@@ -932,5 +948,23 @@ body {
     display: block;
     margin-top: 30px;
     color: #ffffff;
+  }
+  /* --------------------- ミッションページ --------------------- */
+  #mission-main {
+    height: 256px;
+    width: 100%;
+    background-image: url('images/mission/mission-main.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 208px;
+  }
+  /* --------------------- プロダクトページページ --------------------- */
+  #product-main {
+    height: 256px;
+    width: 100%;
+    background-image: url('images/product/product-main.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 208px;
   }
 }
