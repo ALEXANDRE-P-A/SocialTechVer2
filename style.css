@@ -470,19 +470,22 @@ body {
   }
   /* --------------------- ミッションページ --------------------- */
   #mission-main {
-    height: 496px;
+    height: 506px;
     width: 0%;
     background-image: url('images/mission/mission-main.png');
     background-repeat: no-repeat;
     background-position-y: center;
+    background-size: 1069px 445px;
     transition: all 0.5s linear;
+    margin: 5px;
   }
   #mission-title {
     background-color: #2710d5;
     width: 368px;
     color: #ffffff;
     height: 496px;
-    border-radius: 0 248px 240px 0;
+    border-radius: 15px 248px 248px 15px;
+    border: 1px solid #ffffff;
     position: relative;
     opacity: 0;
     transition: all 1s linear;
@@ -515,6 +518,8 @@ body {
     background-image: url('images/product/product-main.png');
     background-repeat: no-repeat;
     background-position-y: center;
+    background-size: 1069px 445px;
+    margin: 5px;
     transition: all 0.5s linear;
   }
   #product-title {
@@ -522,7 +527,8 @@ body {
     width: 368px;
     color: #ffffff;
     height: 496px;
-    border-radius: 0 248px 240px 0;
+    border-radius: 15px 248px 248px 15px;
+    border: 1px solid #ffffff;
     position: relative;
     opacity: 0;
     transition: all 1s linear;
@@ -1020,7 +1026,8 @@ body {
     background-image: url('images/mission/mission-main.png');
     background-repeat: no-repeat;
     background-position-y: center;
-    background-size: auto 208px;
+    margin: 5px;
+    background-size: 363px 208px;
     transition: all 1s linear;
   }
   #mission-title {
@@ -1028,7 +1035,8 @@ body {
     width: 136px;
     color: #ffffff;
     height: 256px;
-    border-radius: 0 248px 248px 0;
+    border-radius: 15px 248px 248px 15px;
+    border: 1px solid #ffffff;
     position: relative;
     opacity: 0;
     transition: all 1s linear;
@@ -1061,7 +1069,8 @@ body {
     background-image: url('images/product/product-main.png');
     background-repeat: no-repeat;
     background-position-y: center;
-    background-size: auto 208px;
+    background-size: 363px 208px;
+    margin: 5px;
     transition: all 1s linear;
   }
   #product-title {
@@ -1069,7 +1078,8 @@ body {
     width: 136px;
     color: #ffffff;
     height: 256px;
-    border-radius: 0 248px 248px 0;
+    border-radius: 15px 248px 248px 15px;
+    border: 1px solid #ffffff;
     position: relative;
     opacity: 0;
     transition: all 1s linear;
