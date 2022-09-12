@@ -1031,7 +1031,8 @@ body {
     margin-bottom: 0px;
   }
   .contact-heading {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .contact-label {
     font-weight: bold;
@@ -1046,7 +1047,7 @@ body {
     border-style: solid;
     border-color: #707070;
     border-width: 0 0 1px 0;
-    width: 100%;
+    width: 99%;
     /* min-width: 300px; */
     text-align: center;
   }
@@ -1055,7 +1056,7 @@ body {
     border-style: solid;
     border-color: #707070;
     border-width: 0 0 1px 0;
-    width: 100%;
+    width: 99%;
     /* min-width: 300px; */
     text-align: center;
   }
