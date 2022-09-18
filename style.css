@@ -1290,6 +1290,10 @@ body {
     border-radius: 15px 300px 15px 15px;
     border: 1px solid #ffffff;
     box-shadow: 3px 2px 3px #0d0d0d;
+    order: 1;
+  }
+  .product-section1 > div {
+    order: 2;
   }
   .product-h2 {
     color: #2710d5;
@@ -1320,5 +1324,9 @@ body {
     border-radius: 300px 15px 15px 15px;
     border: 1px solid #ffffff;
     box-shadow: 3px 2px 3px #0d0d0d;
+    order: 1;
+  }
+  .product-section2 > div {
+    order: 2;
   }
 }
