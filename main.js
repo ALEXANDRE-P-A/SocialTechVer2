@@ -16,4 +16,10 @@ setTimeout(() => {
   }, 1500);
 },1500);
 
+if($(window).height() <= 465){
+  $('.menu').css('margin-bottom', 10);
+  $('#logo-sp').css('margin-top', 10);
+  $('#logo-sp').css('margin-bottom', 10);
+}
+
 
