@@ -16,10 +16,18 @@ setTimeout(() => {
   }, 1500);
 },1500);
 
-if($(window).height() <= 465){
-  $('.menu').css('margin-bottom', 10);
-  $('#logo-sp').css('margin-top', 10);
-  $('#logo-sp').css('margin-bottom', 10);
-}
+window.addEventListener('resize',()=>{
+  if(window.outerHeight <= 600){
+    $('.menu').css('margin-bottom', 10);
+    $('#logo-sp').css('margin-top', 10);
+    $('#logo-sp').css('margin-bottom', 10);
+    console.log('success');
+  } else {
+    $('.menu').css('margin-bottom', 30);
+    $('#logo-sp').css('margin-top', 10);
+    $('#logo-sp').css('margin-bottom', 30);
+    console.log('success');
+  }
+});
 
 
